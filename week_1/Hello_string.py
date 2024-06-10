@@ -1,0 +1,5 @@
+print('python')
+print("python")
+print("python","java","javaScript","html","css","sql")
+print('python','java','javaScript','html','css','sql')
+print('python'","'java'","'javaScript'","'html'","'css'","'sql')
