@@ -1,0 +1,29 @@
+cd ..   --> go to previous directory
+cd "folder/directory name"   --> Go to folder
+f: --> Go to F drive
+
+
+cd law-testsuit --> Go to local repository
+git pull  --> pull latest file to local from central repository
+code .    --> OPen visual code at the current directory
+git status --> show changes in the local repository
+git add .   --> add all files
+	git add "file name" --> to add just the file
+git commit -m "message"
+git push
+
+Upload a file in Github
+========================
+1. Create a file named "test.py" in VSCode --> A new file named "test.py" will be created in local github folder
+2. Open command prompt and execute 'git status' --> test.py file will be shown in red color
+3. Execute "git add" command  --> This will add the file to github, git status will show the file in green color
+	git add python/exercises/test.py
+4. Execute git commit -m "message" command  --> This will commit the changes in github
+	git commit -m "test"
+<<<Now the file saved locally has been synced with github>>>
+
+Delete a file in Github
+========================
+Delete the file in VSCode first. Then follow the above steps 2 to 4, to sync the deletion to github.
+
+
