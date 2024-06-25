@@ -190,6 +190,12 @@ exponentiation = 8 ** 6
 print(f"8 ** 6 = {exponentiation}")
 
 
+#23.What is the character at index 0 in the string Coding For All
+string = "Coding For All"
+char_at_indx_0 = string[0]
+print(char_at_indx_0f:f)
+
+
 
 
 
