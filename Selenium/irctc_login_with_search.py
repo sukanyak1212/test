@@ -7,8 +7,8 @@ import time
 
 # Configuration
 URL = "https://www.irctc.co.in/nget/train-search"
-USERNAME = "sukanyaksurendran"
-PASSWORD = "Qspiders@2022"
+USERNAME = "enter ur username"
+PASSWORD = "enter ur password"
 captcha_message = "Please solve the CAPTCHA and any other required fields on the web page, then press Enter here to continue..."
 
 def initialize_webdriver():
