@@ -1,0 +1,26 @@
+class IRCTCLocators:
+    LOGIN_BUTTON = "//a[@aria-label='Click here to Login in application']"
+    USERNAME_INPUT = "//input[@formcontrolname='userid']"
+    PASSWORD_INPUT = "//input[@formcontrolname='password']"
+    CAPTCHA_INPUT = "//input[@id='captcha']"
+    SIGN_IN_BUTTON = "//button[normalize-space()='SIGN IN']"
+    FROM_FIELD = "//label[text()='From']//preceding-sibling::p-autocomplete/span/input"
+    TO_FIELD = "//label[text()='To']//preceding-sibling::p-autocomplete/span/input"
+    SEARCH_BUTTON = "//button[text()='Search']"
+    POPUP_BUTTON = "//button[@class='btn btn-primary']"
+    DATE_PICKER_INPUT = "//span[@class='ng-tns-c58-10 ui-calendar']/input"
+    DATE_PICKER_DAYS = "//div[contains(@class,'ui-datepicker-calendar')]/table/tbody/tr/td/a"
+    DATE_PICKER_MONTH_YEAR = "//div[contains(@class,'ui-datepicker-title')]"
+    DATE_PICKER_PREV = "//a[@class='ui-datepicker-prev ui-corner-all']"
+    DATE_PICKER_NEXT = "//a[@class='ui-datepicker-next ui-corner-all']"
+
+    ALL_CLASSES_DROPDOWN = "//*[@id='journeyClass']"
+    ALL_CLASSES_OPTIONS = "//*[@id='journeyClass']/div//following::p-dropdownitem/li/span"
+
+    GENERAL_DROPDOWN = "//*[@id='journeyQuota']"
+    GENERAL_OPTIONS = "//*[@id='journeyQuota']/div//following::p-dropdownitem/li/span"
+
+    TRAIN_LIST_ROWS = "//div[@class='form-group no-pad col-xs-12 bull-back border-all']"
+    TRAIN_NUMBER = "//div[contains(@class,'train-heading')]/strong"
+    SLEEPER_CLASS_BUTTON = "//Strong[text()='Sleeper (SL)']"
+    BOOK_BUTTON = "//button[text()=' Book Now ']"
